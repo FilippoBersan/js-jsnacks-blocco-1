@@ -7,7 +7,6 @@ if (cortaParola.length < lungaParola.length) {
   console.log(cortaParola);
   console.log(lungaParola);
 } else if (cortaParola.length > lungaParola.length) {
-  console.log(cortaParola);
   console.log(lungaParola);
-} else lungaParola.length === cortaParola.length;
-console.log('uguale');
+  console.log(cortaParola);
+} else console.log('uguale');
